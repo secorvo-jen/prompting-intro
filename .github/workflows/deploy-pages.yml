@@ -49,14 +49,18 @@ jobs:
           path: ./dist
 
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     needs: build
+
+    # Keine environment protection - direktes Deployment
+    permissions:
+      pages: write
+      id-token: write
 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Output Page URL
+        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
