@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   // Base path für GitHub Pages (Repository-Name)
-  base: process.env.NODE_ENV === 'production' ? '/prompting-intro/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/besser-wuenschen/' : '/',
 
   slidev: {
     markdown: {

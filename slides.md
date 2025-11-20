@@ -283,6 +283,9 @@ title: Chatbot
 ### Base Model:
 ```
 Input: "Erkläre mir Schwerkraft"
+```
+
+```
 Output: "Erkläre mir Schwerkraft in
 einfachen Worten für Kinder.
 Schwerkraft ist..."
@@ -298,14 +301,17 @@ Schwerkraft ist..."
 ### Nach SFT (Chat Model):
 ```
 User: "Erkläre mir Schwerkraft"
-Assistant: "Gerne erkläre ich dir
+```
+
+```
+Assistant: "Gerne erkläre ich Dir
 Schwerkraft! Schwerkraft ist eine
 Kraft, die alle Objekte mit Masse..."
 ```
 
 → Versteht Anweisungen!
 
-→ Ist aber weiterhin Textvervollständigung!
+→ Arbeitet aber weiterhin als Textvervollständigung!
 
 </v-clicks>
 
@@ -375,9 +381,9 @@ layout: default
 
 <v-clicks>
 
-- Dein Startschuss: Der Prompt ist alles, was du der KI fütterst, um sie zum Leben zu erwecken.
+- Dein Startschuss: Der Prompt ist alles, was Du der KI fütterst, um sie zum Leben zu erwecken.
 
-- Mehr als nur Googeln: Du suchst nicht nach Antworten, du baust sie. Dein Prompt ist der Bauplan in deinen eigenen Worten.
+- Mehr als nur Googeln: Du suchst nicht nach Antworten, Du baust sie. Dein Prompt ist der Bauplan in Deinen eigenen Worten.
 
 - Volle Kontrolle: Du gibst den Ton an. Du setzt den Kontext, verteilst die Aufgaben und entscheidest, was am Ende rauskommt.
 </v-clicks>
@@ -478,7 +484,7 @@ Du gibst **ein Beispiel** für das gewünschte Format
 Beispiel:
 [Input] → [Output]
 
-Jetzt du:
+Jetzt Du:
 [Neuer Input] →
 ```
 
@@ -498,7 +504,7 @@ Beispiel:
 Satz: "Ich liebe diesen Film!"
 Stimmung: Positiv
 
-Jetzt du:
+Jetzt Du:
 Satz: "Das war langweilig."
 Stimmung:
 ```
@@ -509,7 +515,7 @@ Beispiel:
 Normal: "Der Hund läuft schnell."
 Poetisch: "Behände eilt der Vierbeiner dahin."
 
-Jetzt du:
+Jetzt Du:
 Normal: "Es regnet stark."
 Poetisch:
 ```
@@ -564,7 +570,7 @@ Klassifiziere die Programmiersprache:
 3. "System.out.println('Hallo')" → Java
 4. "echo 'Hallo'" → Bash
 
-Jetzt du:
+Jetzt Du:
 5. "puts 'Hallo'" →
 ```
 
@@ -601,7 +607,7 @@ LLM soll **Denkschritte** zeigen
 ### Schlüssel-Phrase:
 ```
 "Denke Schritt für Schritt"
-"Erkläre deinen Gedankengang"
+"Erkläre Deinen Gedankengang"
 ```
 
 ### Warum wirkt das?
@@ -706,7 +712,7 @@ Quantenverschränkung für Studenten."
 
 ### Zielgruppen-Anpassung:
 ```
-"Erkläre Photosynthese als wärst du
+"Erkläre Photosynthese als wärst Du
 ein begeisterter Biologie-Lehrer für
 8-Jährige."
 ```
@@ -969,8 +975,8 @@ title: Prompting Level 8 - Meta-Prompting
 LLM **verbessert seine eigenen Antworten**
 
 ### Techniken:
-1. **Self-Critique**: "Prüfe deine Antwort"
-2. **Iteration**: "Verbessere deine Antwort"
+1. **Self-Critique**: "Prüfe Deine Antwort"
+2. **Iteration**: "Verbessere Deine Antwort"
 3. **Reflexion**: "Was könnte falsch sein?"
 
 ### Beispiel-Flow:
@@ -995,7 +1001,7 @@ User: [Frage]
 ```
 "Erkläre Quantencomputer.
 
-Prüfe jetzt deine Erklärung:
+Prüfe jetzt Deine Erklärung:
 1. Ist sie korrekt?
 2. Ist sie verständlich?
 3. Fehlt etwas Wichtiges?
@@ -1066,14 +1072,14 @@ title: LLMs als Lernpartner
 | 2️⃣ | **Output-Prüfung** | Fakten checken & Quellen suchen | 🔍 Wirkt glaubwürdig, oft falsch |
 | 3️⃣ | **Denkpartner** | "Erkläre mir..." statt "Löse für mich..." | 🧠 Copy & Paste verhindert Lernen |
 | 4️⃣ | **Datenschutz** | Anonyme Aufgabenstellungen nutzen | 🛡️ Keine Namen oder privaten Daten! |
-| 5️⃣ | **Schreibstil** | Feedback zu eigenen Texten einholen | ✍️ Behalte deine eigene Stimme |
+| 5️⃣ | **Schreibstil** | Feedback zu eigenen Texten einholen | ✍️ Behalte Deine eigene Stimme |
 
 </div>
 
 <v-click>
 
 <div class="text-center mt-8 text-xl">
-💡 **Merke:** Die KI ist der Co-Pilot, du bist der Pilot!
+💡 **Merke:** Die KI ist der Co-Pilot, Du bist der Pilot!
 </div>
 
 </v-click>
@@ -1103,7 +1109,7 @@ Der Versuch, die Sicherheitsregeln ("System Prompts") einer KI durch geschickte 
 <div class="mt-8 p-4 bg-red-900/20 border border-red-500/30 rounded-lg">
   <h3 class="text-xl text-white m-0">🧙‍♂️ Challenge: Gandalf</h3>
   <p class="text-sm mt-2 mb-2 opacity-80">
-    Trainiere deine Skills ("Red Teaming"). Deine Mission: Entlocke Gandalf das Passwort!
+    Trainiere Deine Skills ("Red Teaming"). Deine Mission: Entlocke Gandalf das Passwort!
   </p>
   <a href="https://gandalf.lakera.ai/gandalf" class="font-mono text-blue-400 hover:text-blue-300">
     👉 gandalf.lakera.ai/gandalf
@@ -1147,7 +1153,7 @@ title: Weiterführende Quellen
   <br><span class="text-sm opacity-70 italic">"Battle Royale der KIs. Du chattest mit zwei anonymen Modellen und kürst den Sieger."</span>
 
 - **[Teachable Machine](https://teachablemachine.withgoogle.com/)**
-  <br><span class="text-sm opacity-70 italic">"Der 'Aha-Effekt'. Trainiere deine eigene KI mit der Webcam. Ohne Code."</span>
+  <br><span class="text-sm opacity-70 italic">"Der 'Aha-Effekt'. Trainiere Deine eigene KI mit der Webcam. Ohne Code."</span>
 
 - **[Hugging Face Playground](https://huggingface.co/playground)**
   <br><span class="text-sm opacity-70 italic">"Der Abenteuerspielplatz für Open-Source Modelle."</span>
