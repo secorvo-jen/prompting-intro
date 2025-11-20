@@ -3,6 +3,12 @@ layout: default
 title: Alchemie
 ---
 <img src="/assets/einstieg/alchemy.jpg" style="display:block; margin:0 auto; width:50%; height:auto;" />
+<div class="h-6"></div>
+<v-clicks>
+<div class="text-center" style="font-size: 70%;">
+LLM-Prompting: Alchemie oder Wissenschaft?</div>
+</v-clicks>
+
 ---
 layout: default
 title: Grundlagen für einen effizienten Umgang mit Large Language Models (LLM)
