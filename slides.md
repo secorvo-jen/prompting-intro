@@ -1167,3 +1167,25 @@ title: Weiterführende Quellen
 </div>
 </div>
 ---
+layout: center
+---
+
+<div class="flex flex-col items-center text-center">
+  <div class="text-5xl mb-6 text-blue-400">
+    📸
+  </div>
+
+  <h1 class="mb-12">Bildnachweis</h1>
+
+  <div class="bg-gray-800/80 p-10 rounded-xl border border-gray-700 max-w-3xl backdrop-blur-sm">
+    <div class="text-2xl text-gray-300 leading-relaxed">
+      Alle Bilder in dieser Präsentation wurden generiert mit:
+    </div>
+    <div class="text-4xl font-bold mt-6 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+      <a href="https://gemini.google/overview/image-generation/">Google Neo Banana</a>
+    </div>
+    <div class="mt-8 text-gray-500 italic text-lg">
+      (Ausnahme: Cover des Buches "Das Sams")
+    </div>
+  </div>
+</div>
